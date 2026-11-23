@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "faster_entity_animations",
+	"version": "${version}",
+	"name": "FastAnim Continuation",
+	"description": "Optimizes entity animations for better performance!",
+	"authors": [
+		"break08"
+	],
+	"contact": {
+		"homepage": "null",
+		"sources": "null"
+	},
+	"license": "MIT",
+	"icon": "assets/faster_entity_animations/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lunade.fastanim.Main"
+		]
+	},
+	"mixins": [
+		"faster_entity_animations.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
